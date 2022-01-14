@@ -1,0 +1,67 @@
+img{
+    border-radius: 15px;
+}
+
+.card{
+    border: #086E7D solid 2px;
+    width: 75%;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.status{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: #EF2F88
+}
+.greenButton{
+    width: 14px;
+    height: 14px;
+    margin-right: 20px;
+    background-color: #95CD41;
+    border-radius: 6px;
+}
+
+.redButton{
+    width: 14px;
+    height: 14px;
+    margin-right: 20px;
+    background-color: #EF2F88;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 500px) {
+    .card>img{
+        width: 100%;
+    }    
+    
+    .card{
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    img{
+        width: 100%;
+    }    
+
+    .card{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    img{
+        width: 100%;
+    }
+    .card{
+        width: 45%;
+    }    
+}

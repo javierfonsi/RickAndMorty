@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #FFF89A;
+}
+
+.backgr-img{
+  background-image: url(./img/rick-y-morty.png);
+  height: 280px;
+  background-position: 100%;
+  background-size: cover;
+}
+
+.App>h1{
+  color: #1321a3;
+  padding-top: 15px;
+  font-size: 38px;
+}
+
+.App>h3{
+  color: #EF2F88;
+  margin: 0px;
+}

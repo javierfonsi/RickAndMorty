@@ -1,0 +1,24 @@
+
+.allView > ul > li{
+    list-style: none;
+    display: flex;
+    color: #086E7D;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.allView >ul{
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+h2{
+    padding-top: 18px;
+    padding-bottom: 5px;
+    font-size: 28px;
+    color: #086E7D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
